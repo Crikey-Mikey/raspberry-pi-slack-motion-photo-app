@@ -8,7 +8,7 @@ sudo apt-get update
 
 
 ## Install Node.js:
-We're using the Raspberry Pi Zero (and the original Raspberry Pi) use an ARMv6 CPU. Unfortunately apt-get install nodejs installs a version of node built for ARMv7, so we’ll have to install it manually.
+The Raspberry Pi Zero (and the original Raspberry Pi) use an ARMv6 CPU. Unfortunately apt-get install nodejs installs a version of node built for ARMv7, so we’ll have to install it manually.
 
 * Download
 ```bash
