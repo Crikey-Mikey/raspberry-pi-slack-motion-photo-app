@@ -1,14 +1,18 @@
-#Raspberry Pi - Slackbot photo app
-
-# Setup guide for pi Zero
+# Setup guide
 
 ```bash
 sudo apt-get update
 ```
 
+## Install Node.js ( Raspberry Pi 2 & 3 ):
+```bash
+sudo apt-get update  
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install nodejs
+```
 
-## Install Node.js:
-The Raspberry Pi Zero (and the original Raspberry Pi) use an ARMv6 CPU. Unfortunately apt-get install nodejs installs a version of node built for ARMv7, so we’ll have to install it manually.
+## Install Node.js ( pi Zero and original Raspberry Pi ):
+These Pi's use the ARMv6 CPU. Unfortunately apt-get install nodejs installs a version of node built for ARMv7, so we’ll have to install it manually.
 
 * Download
 ```bash
@@ -54,5 +58,4 @@ this will create a node_modules directory and download the required dependencies
 ```bash
 npm start
 ```
-
 
