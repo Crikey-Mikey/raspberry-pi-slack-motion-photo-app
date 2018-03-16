@@ -1,4 +1,5 @@
-# Setup guide
+Setup guide
+======
 
 ```bash
 sudo apt-get update
@@ -59,7 +60,8 @@ npm install
 this will create a node_modules directory and download the required dependencies as outlined in the package.json file.
 
 
-## start server
+start server
+======
 ```bash
 npm start
 ```
