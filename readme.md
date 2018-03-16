@@ -45,10 +45,10 @@ nano ~/.profile
 Add PATH=$PATH:/usr/local/bin at the end then press ctrl + x to exit. Type yes to save.
 
 ##### Test
+```bash
 node -v
-we're using v9.5.0
+```
 
----
 
 Install Node dependencies
 ======
